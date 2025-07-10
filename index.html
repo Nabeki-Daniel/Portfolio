@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NABEKI DANIEL | NEBA DEV PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/logo.png" class="log" type="image-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Neba Dev</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Neba Dev</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Nabeki Daniel profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nabeki Daniel</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/upwork.png"
+            alt="My upwork profile"
+            class="icon-upwork"
+            onclick="window.open('https://upwork.com/', '_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/Nabeki-Daniel', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Udacity<br />Self Learning</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             I'm a passionate web developer with expertise in 
+             creating responsive, user-friendly websites and applications. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React, I specialize in turning ideas into functional, visually appealing digital experiences. Whether it's front-end design or full-stack development, I focus on clean code, performance optimization, and seamless user interactions. 
+             Let's build something amazing together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Shoes-Slider"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Shoes-Slider</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/Nabeki-Daniel/Shoes-Slider"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://nabeki-daniel.github.io/Shoes-Slider/"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Headphone"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Headphone</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/Nabeki-Daniel/Headphone"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://nabeki-daniel.github.io/Headphone/"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Food-Slider"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Food-Slider</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/Nabeki-Daniel/food-slider"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://nabeki-daniel.github.io/food-slider/"
+                class="btn btn-color-2 project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>nebajunior74.email@gmail.com</p>
+                    <a href="mailto:nebajunior.email@gmail.com" class="contact-btn">Send Email</a>
+                </div>
+                                
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <h1>ETHIOPIA</h1>
+                    <p>Addis Ababa</p>
+                    <a href="#" class="contact-btn" id="map-btn">View Map</a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <h3>Send Me a Message</h3>
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="form-message"></div>
+            </form>
+        </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Neba Dev. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      // Enhanced script.js with all improvements
+      function toggleMenu() {
+          const menu = document.querySelector(".menu-links");
+          const icon = document.querySelector(".hamburger-icon");
+          menu.classList.toggle("open");
+          icon.classList.toggle("open");
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+          // Assign toggle function to window for global access
+          window.toggleMenu = toggleMenu;
+
+          // Form submission handling with improved validation
+          const contactForm = document.getElementById('contactForm');
+          const formMessage = document.getElementById('form-message');
+          
+          if (contactForm) {
+              contactForm.addEventListener('submit', async function(e) {
+                  e.preventDefault();
+                  
+                  // Get form values
+                  const formData = {
+                      name: document.getElementById('name').value.trim(),
+                      email: document.getElementById('email').value.trim(),
+                      subject: document.getElementById('subject').value.trim(),
+                      message: document.getElementById('message').value.trim()
+                  };
+                  
+                  // Enhanced validation
+                  if (!formData.name || !formData.email || !formData.message) {
+                      showFormMessage('Please fill in all required fields', 'error');
+                      return;
+                  }
+                  
+                  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+                      showFormMessage('Please enter a valid email address', 'error');
+                      return;
+                  }
+
+                  try {
+                      // Simulate form submission
+                      showFormMessage('Sending message...', 'info');
+                      
+                      // Simulate network delay
+                      await new Promise(resolve => setTimeout(resolve, 1500));
+                      
+                      showFormMessage('Message sent successfully! I\'ll get back to you soon.', 'success');
+                      contactForm.reset();
+                  } catch (error) {
+                      showFormMessage('There was an error sending your message. Please try again.', 'error');
+                      console.error('Form submission error:', error);
+                  }
+              });
+          }
+          
+          // Improved map button functionality
+          const mapBtn = document.getElementById('map-btn');
+          if (mapBtn) {
+              mapBtn.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  window.open('https://maps.google.com/?q=Addis+Ababa,ETHIOPIA', '_blank');
+              });
+          }
+          
+          // Enhanced form message display
+          function showFormMessage(message, type) {
+              if (!formMessage) return;
+              
+              formMessage.textContent = message;
+              formMessage.className = ''; // Clear previous classes
+              formMessage.classList.add('form-message', type);
+              formMessage.style.display = 'block';
+              
+              // Hide message after 5 seconds
+              setTimeout(() => {
+                  formMessage.style.display = 'none';
+              }, 5000);
+          }
+          
+          // Smooth scrolling for anchor links
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  const targetId = this.getAttribute('href');
+                  if (targetId === '#') return;
+                  
+                  const targetElement = document.querySelector(targetId);
+                  if (targetElement) {
+                      targetElement.scrollIntoView({
+                          behavior: 'smooth'
+                      });
+                  }
+              });
+          });
+          
+          // Animation on scroll with Intersection Observer (modern approach)
+          if (window.matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+              const animateElements = document.querySelectorAll('.contact-card, .contact-form, .project-img, .details-container');
+              
+              const observer = new IntersectionObserver((entries) => {
+                  entries.forEach(entry => {
+                      if (entry.isIntersecting) {
+                          entry.target.classList.add('animate');
+                          observer.unobserve(entry.target);
+                      }
+                  });
+              }, {
+                  threshold: 0.1
+              });
+              
+              animateElements.forEach(element => {
+                  observer.observe(element);
+              });
+          }
+      });
+    </script>
+  </body>
+</html>
